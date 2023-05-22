@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 2283551397
+    locked: 0
+  - name: Ground
+    uniqueID: 1736827153
+    locked: 0
+  - name: Fish
+    uniqueID: 2121785047
+    locked: 0
