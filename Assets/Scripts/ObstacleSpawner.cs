@@ -13,19 +13,23 @@ public class ObstacleSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InstantiateObstacle();
+        //InstantiateObstacle();
     }
 
     // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime;
-        if (timer >=maxTime)
+        if (GameManager.gameOver == false && GameManager.gameStarted == true)
         {
-            randomY = Random.Range(minY, maxY);
-            InstantiateObstacle();
-            timer = 0;
+            timer += Time.deltaTime;
+            if (timer >= maxTime)
+            {
+                randomY = Random.Range(minY, maxY);
+                InstantiateObstacle();
+                timer = 0;
+            }
         }
+        
     }
     public void InstantiateObstacle()
     {

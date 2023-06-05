@@ -73,7 +73,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b9c51fcf1c5dff44bc3a343d0eb3e9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
+  groundWidth: 0
+  obstacleWidth: 0
 --- !u!1 &7480816027915366712
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,8 +148,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -2011415899
-  m_SortingLayer: 0
+  m_SortingLayerID: 861042563
+  m_SortingLayer: 1
   m_SortingOrder: 1
   m_Sprite: {fileID: -1640879193, guid: f5c1aba3abe573f4c9cf4a82abfdfb9c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -284,8 +286,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -2011415899
-  m_SortingLayer: 0
+  m_SortingLayerID: 861042563
+  m_SortingLayer: 1
   m_SortingOrder: 1
   m_Sprite: {fileID: -1640879193, guid: f5c1aba3abe573f4c9cf4a82abfdfb9c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
